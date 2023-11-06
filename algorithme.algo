@@ -1,0 +1,22 @@
+ALGORITHM sheckpooint
+FUNCTION analyse_sentence(sentence) : INTEGER
+VAR
+    sentence_length,word_count , vowel_count :INTEGER ;
+
+
+BEGIN
+sentence_length = 0
+word_count = 0
+vowel_count = 0
+    FOR char FROM 1 TO sentence STEP   DO
+        sentence_length:=1;
+        if char ++ ' ' ;
+        word_count +=1 ;
+        elif char in 'AEIOUaeiou' ;
+        vowel_count += 1 ;
+        sentence_length -= 1 ;
+        word_count +=1;
+        return sentence_length , word_count , vowel_count ;
+
+    END_FOR
+END
